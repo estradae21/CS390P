@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+    root to: 'pages#home'
+  devise_for :users
   resources :students do
       collection do
           get 'search'
@@ -17,5 +19,4 @@ Rails.application.routes.draw do
       end
   end
   
-  root 'courses#index'
 end
