@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2018_10_06_182323) do
 
   create_table "students", force: :cascade do |t|
     t.string "name"
+    t.string "section_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -62,6 +62,12 @@ class StudentsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  def search
+      @students = Student.where("name like ?", "%#{params[:query]}%")
+      render :index
+  end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.
