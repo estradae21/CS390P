@@ -16,6 +16,11 @@
     <%= form.text_field :name %>
   </div>
 
+  <div class="field">
+    <%= form.label :section_id %><br>
+    <%= form.collection_check_boxes(:section_ids, @sections, :id, :semester) %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
