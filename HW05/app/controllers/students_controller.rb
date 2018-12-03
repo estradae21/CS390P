@@ -1,6 +1,4 @@
 class StudentsController < ApplicationController
-    before_action :authenticate_user!
-    
   before_action :set_student, only: [:show, :edit, :update, :destroy]
 
   # GET /students
@@ -17,12 +15,10 @@ class StudentsController < ApplicationController
   # GET /students/new
   def new
     @student = Student.new
-    @sections = Section.all
   end
 
   # GET /students/1/edit
   def edit
-      @sections = Section.all
   end
 
   # POST /students
@@ -64,12 +60,6 @@ class StudentsController < ApplicationController
       format.json { head :no_content }
     end
   end
-  
-  def search
-      @students = Student.where("name like ?", "%#{params[:query]}%")
-      render :index
-  end
-  
 
   private
     # Use callbacks to share common setup or constraints between actions.

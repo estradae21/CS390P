@@ -1,0 +1,1455 @@
+Started GET "/" for 127.0.0.1 at 2018-12-02 11:21:07 -0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-12-02 11:21:11 -0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:31:18 -0700
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateCourses (20180920231057)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "courses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "department" varchar, "number" integer, "credithours" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20180920231057_create_courses.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180920231057"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateSections (20180920231255)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "sections" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "semester" varchar, "number" integer, "course_id" integer, "roomnumber" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_20b1e5de46"
+FOREIGN KEY ("course_id")
+  REFERENCES "courses" ("id")
+)[0m
+  ↳ db/migrate/20180920231255_create_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_sections_on_course_id" ON "sections" ("course_id")[0m
+  ↳ db/migrate/20180920231255_create_sections.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180920231255"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to CreateStudents (20181006044644)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "students" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20181006044644_create_students.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20181006044644"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-12-03 05:31:30.546257"], ["updated_at", "2018-12-03 05:31:30.546257"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:31:35 -0700
+Started GET "/courses" for 127.0.0.1 at 2018-12-02 22:31:45 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 414ms (Views: 399.2ms | ActiveRecord: 0.4ms)
+
+
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2018-12-02 22:32:04 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 208ms (Views: 196.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sections" for 127.0.0.1 at 2018-12-02 22:32:12 -0700
+Processing by SectionsController#index as HTML
+  Rendering sections/index.html.erb within layouts/application
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.html.erb:23
+  Rendered sections/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 32ms (Views: 24.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sections" for 127.0.0.1 at 2018-12-02 22:35:05 -0700
+Processing by SectionsController#index as HTML
+  Rendering sections/index.html.erb within layouts/application
+  [1m[36mSection Load (0.4ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.html.erb:23
+  Rendered sections/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:35:09 -0700
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:37:12 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:37:59 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2018-12-02 22:38:08 -0700
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/ernestoestrada/.rvm/rubies/ruby-2.5.1/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered courses/index.html.erb within layouts/application (224.7ms)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `search_courses_url' for #<#<Class:0x00007fce5074c270>:0x00007fce4fd94520>
+Did you mean?  search_field):
+    2: 
+    3: <h1>Courses</h1>
+    4: 
+    5: <%= form_tag(search_courses_url, method: "get") do %>
+    6:     <%= label_tag(:query, "Search for:") %>
+    7:     <%= text_field_tag(:query) %>
+    8:     <%= submit_tag("Search") %>
+  
+app/views/courses/index.html.erb:5:in `_app_views_courses_index_html_erb___1734792235640522350_70262044910900'
+Started GET "/course" for 127.0.0.1 at 2018-12-02 22:38:14 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/course"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/course" for 127.0.0.1 at 2018-12-02 22:39:34 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/course"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/courses" for 127.0.0.1 at 2018-12-02 22:39:40 -0700
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:39:43 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ernestoestrada/.rvm/gems/ruby-2.5.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:40:12 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:15:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:41:57 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.7ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/index.json.jbuilder (8.1ms)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:41:57 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/index.json.jbuilder (0.9ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:41:58 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/index.json.jbuilder (1.9ms)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-02 22:42:21 -0700
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2018-12-02 22:42:24 -0700
+Processing by CoursesController#new as HTML
+  Rendering courses/new.html.erb within layouts/application
+  Rendered courses/_form.html.erb (13.5ms)
+  Rendered courses/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 57ms (Views: 35.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2018-12-02 22:42:47 -0700
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zi+gHc9rAWg4tm5bGVQlFvbAgcD+16ZdTgDpPXCkYbNzsTCRIfcyDBDCmk7j+oGuSiFGrWe7tS3w+6j74HKM3A==", "course"=>{"name"=>"Web Applications", "department"=>"Science", "number"=>"1", "credithours"=>"4"}, "commit"=>"Create Course"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/courses_controller.rb:30
+  [1m[36mCourse Create (1.0ms)[0m  [1m[32mINSERT INTO "courses" ("name", "department", "number", "credithours", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Web Applications"], ["department", "Science"], ["number", 1], ["credithours", 4], ["created_at", "2018-12-03 05:42:47.938263"], ["updated_at", "2018-12-03 05:42:47.938263"]]
+  ↳ app/controllers/courses_controller.rb:30
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/courses_controller.rb:30
+Redirected to http://localhost:3000/courses/1
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/courses/1" for 127.0.0.1 at 2018-12-02 22:42:47 -0700
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:72
+  Rendering courses/show.html.erb within layouts/application
+  Rendered courses/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2018-12-02 22:42:49 -0700
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses/new" for 127.0.0.1 at 2018-12-02 22:42:50 -0700
+Processing by CoursesController#new as HTML
+  Rendering courses/new.html.erb within layouts/application
+  Rendered courses/_form.html.erb (2.0ms)
+  Rendered courses/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/courses" for 127.0.0.1 at 2018-12-02 22:43:01 -0700
+Processing by CoursesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1kuylngjIJKJD6PR9ab++q2FQD9wvycpmjZoTpRL3Xhr1SIalr8T9qF7V8QPCFpCEWSHUunTNFkkzSmIBJ0wFw==", "course"=>{"name"=>"test", "department"=>"test", "number"=>"2", "credithours"=>"3"}, "commit"=>"Create Course"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/courses_controller.rb:30
+  [1m[36mCourse Create (0.4ms)[0m  [1m[32mINSERT INTO "courses" ("name", "department", "number", "credithours", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "test"], ["department", "test"], ["number", 2], ["credithours", 3], ["created_at", "2018-12-03 05:43:01.082642"], ["updated_at", "2018-12-03 05:43:01.082642"]]
+  ↳ app/controllers/courses_controller.rb:30
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/courses_controller.rb:30
+Redirected to http://localhost:3000/courses/2
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/courses/2" for 127.0.0.1 at 2018-12-02 22:43:01 -0700
+Processing by CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/courses_controller.rb:72
+  Rendering courses/show.html.erb within layouts/application
+  Rendered courses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses" for 127.0.0.1 at 2018-12-02 22:43:02 -0700
+Processing by CoursesController#index as HTML
+  Rendering courses/index.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.html.erb:24
+  Rendered courses/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2018-12-02 22:43:08 -0700
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.html.erb:14
+  Rendered students/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2018-12-02 22:43:09 -0700
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/_form.html.erb (3.4ms)
+  Rendered students/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 32ms (Views: 26.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/students" for 127.0.0.1 at 2018-12-02 22:43:15 -0700
+Processing by StudentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uO6TK8tmcD4O6uaK2oUGug2XPLrf//0Px51gV0pwV8SRaVe8BO/CZzIB8I45N6RxHcqP9kGhcjIvFA1pez2l8Q==", "student"=>{"name"=>"Ernesto Estrada"}, "commit"=>"Create Student"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/students_controller.rb:30
+  [1m[36mStudent Create (0.4ms)[0m  [1m[32mINSERT INTO "students" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Ernesto Estrada"], ["created_at", "2018-12-03 05:43:15.862037"], ["updated_at", "2018-12-03 05:43:15.862037"]]
+  ↳ app/controllers/students_controller.rb:30
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/students_controller.rb:30
+Redirected to http://localhost:3000/students/1
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/students/1" for 127.0.0.1 at 2018-12-02 22:43:15 -0700
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/students_controller.rb:67
+  Rendering students/show.html.erb within layouts/application
+  Rendered students/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students" for 127.0.0.1 at 2018-12-02 22:43:17 -0700
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.html.erb:14
+  Rendered students/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:43:23 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.7ms)
+  Rendered students/index.json.jbuilder (3.5ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:43:24 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.7ms)
+  Rendered courses/_course.json.jbuilder (0.3ms)
+  Rendered courses/index.json.jbuilder (4.5ms)
+Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:43:25 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.8ms)
+  Rendered courses/_course.json.jbuilder (0.4ms)
+  Rendered courses/index.json.jbuilder (4.7ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:45:49 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (1.3ms)
+  Rendered students/index.json.jbuilder (5.9ms)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:46:06 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.9ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 22:48:14 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/index.json.jbuilder (1.6ms)
+Completed 200 OK in 12ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sections" for 127.0.0.1 at 2018-12-02 22:48:35 -0700
+Processing by SectionsController#index as HTML
+  Rendering sections/index.html.erb within layouts/application
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.html.erb:23
+  Rendered sections/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 22:48:42 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/index.json.jbuilder (1.1ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections/new" for 127.0.0.1 at 2018-12-02 22:48:46 -0700
+Processing by SectionsController#new as HTML
+  Rendering sections/new.html.erb within layouts/application
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/sections/_form.html.erb:26
+  Rendered sections/_form.html.erb (12.7ms)
+  Rendered sections/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 43ms (Views: 35.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/sections" for 127.0.0.1 at 2018-12-02 22:49:00 -0700
+Processing by SectionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W9HAa5XX8uFt3yEEsJHT/5acrK/olezoMmypdBrjfL+y5PlCY1wx5m312YiEsN5de3+DTkPrCVqKpZ11Dc6K4A==", "section"=>{"semester"=>"Fall semester", "number"=>"2", "course_id"=>"1", "roomnumber"=>"109"}, "commit"=>"Create Section"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/sections_controller.rb:30
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/sections_controller.rb:30
+  [1m[36mSection Create (0.7ms)[0m  [1m[32mINSERT INTO "sections" ("semester", "number", "course_id", "roomnumber", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["semester", "Fall semester"], ["number", 2], ["course_id", 1], ["roomnumber", 109], ["created_at", "2018-12-03 05:49:00.711098"], ["updated_at", "2018-12-03 05:49:00.711098"]]
+  ↳ app/controllers/sections_controller.rb:30
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/sections_controller.rb:30
+Redirected to http://localhost:3000/sections/1
+Completed 302 Found in 20ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/sections/1" for 127.0.0.1 at 2018-12-02 22:49:00 -0700
+Processing by SectionsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/sections_controller.rb:72
+  Rendering sections/show.html.erb within layouts/application
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/sections/show.html.erb:15
+  Rendered sections/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 28ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sections" for 127.0.0.1 at 2018-12-02 22:49:02 -0700
+Processing by SectionsController#index as HTML
+  Rendering sections/index.html.erb within layouts/application
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.html.erb:23
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT  "courses".* FROM "courses" WHERE "courses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/sections/index.html.erb:27
+  Rendered sections/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 22:49:08 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (1.1ms)
+  Rendered sections/index.json.jbuilder (4.7ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/enrollments" for 127.0.0.1 at 2018-12-02 22:52:38 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/enrollments"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 22:54:42 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (1.7ms)
+  Rendered sections/index.json.jbuilder (6.6ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:54:46 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.1ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:54:49 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.9ms)
+  Rendered students/index.json.jbuilder (3.5ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:54:52 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.6ms)
+  Rendered students/index.json.jbuilder (2.4ms)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:54:53 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.4ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 22:54:53 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.4ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:59:43 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.6ms)
+  Rendered students/index.json.jbuilder (2.8ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:59:44 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.7ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (4.0ms)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 22:59:45 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.6ms)
+  Rendered sections/index.json.jbuilder (2.8ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 22:59:46 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 22:59:46 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.0ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:02:37 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (8.4ms)
+  Rendered courses/index.json.jbuilder (12.0ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:02:38 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.3ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:02:39 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.6ms)
+  Rendered students/index.json.jbuilder (2.8ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:02:40 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.4ms)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:02:40 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.4ms)
+  Rendered students/index.json.jbuilder (2.0ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:02:40 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.7ms)
+  Rendered students/index.json.jbuilder (3.4ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:02:40 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.5ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:02:40 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.6ms)
+Completed 200 OK in 14ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:02:41 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.6ms)
+  Rendered sections/index.json.jbuilder (2.7ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:02:42 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.2ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:03:46 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.2ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:03:48 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.2ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:03:49 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:03:50 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (1.8ms)
+  Rendered sections/index.json.jbuilder (4.3ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:03:51 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.2ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:03:51 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.5ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:11:29 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.6ms)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:11:30 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.3ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:11:31 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.6ms)
+  Rendered students/index.json.jbuilder (2.5ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:11:31 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.4ms)
+  Rendered students/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:11:32 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.4ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:11:32 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.4ms)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:11:33 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:11:33 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.4ms)
+  Rendered students/index.json.jbuilder (2.2ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:11:33 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.2ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:11:34 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.5ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:16:35 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.1ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:16:37 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.4ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.0ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:16:38 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:16:39 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.3ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:16:40 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (1.0ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (4.0ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:16:40 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/index.json.jbuilder (4.4ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:16:41 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.9ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/enrollments.json" for 127.0.0.1 at 2018-12-02 23:18:06 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/enrollments.json"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/enrollments.json" for 127.0.0.1 at 2018-12-02 23:18:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/enrollments.json"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/enrollments.json" for 127.0.0.1 at 2018-12-02 23:18:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/enrollments.json"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/enrollments.json" for 127.0.0.1 at 2018-12-02 23:18:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/enrollments.json"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:18:08 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.1ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.6ms)
+  Rendered sections/index.json.jbuilder (2.3ms)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:18:08 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.3ms)
+  Rendered courses/index.json.jbuilder (3.8ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:18:10 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.3ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:18:10 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.5ms)
+  Rendered students/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:18:12 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.2ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:18:13 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.1ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.3ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:18:13 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.4ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (2.9ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/enrollments.json" for 127.0.0.1 at 2018-12-02 23:18:13 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/enrollments.json"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/students.json" for 127.0.0.1 at 2018-12-02 23:24:54 -0700
+Processing by StudentsController#index as JSON
+  Rendering students/index.json.jbuilder
+  [1m[36mStudent Load (0.6ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  ↳ app/views/students/index.json.jbuilder:1
+  Rendered students/_student.json.jbuilder (0.6ms)
+  Rendered students/index.json.jbuilder (4.1ms)
+Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:24:54 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.4ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.7ms)
+  Rendered courses/_course.json.jbuilder (0.4ms)
+  Rendered courses/index.json.jbuilder (4.3ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sections.json" for 127.0.0.1 at 2018-12-02 23:24:55 -0700
+Processing by SectionsController#index as JSON
+  Rendering sections/index.json.jbuilder
+  [1m[36mSection Load (0.4ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  ↳ app/views/sections/index.json.jbuilder:1
+  Rendered sections/_section.json.jbuilder (0.5ms)
+  Rendered sections/index.json.jbuilder (2.9ms)
+Completed 200 OK in 16ms (Views: 8.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:24:55 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.5ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.0ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:43:23 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.5ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (4.0ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/courses.json" for 127.0.0.1 at 2018-12-02 23:54:02 -0700
+Processing by CoursesController#index as JSON
+  Rendering courses/index.json.jbuilder
+  [1m[36mCourse Load (0.5ms)[0m  [1m[34mSELECT "courses".* FROM "courses"[0m
+  ↳ app/views/courses/index.json.jbuilder:1
+  Rendered courses/_course.json.jbuilder (0.6ms)
+  Rendered courses/_course.json.jbuilder (0.2ms)
+  Rendered courses/index.json.jbuilder (3.7ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.5ms)
+
+

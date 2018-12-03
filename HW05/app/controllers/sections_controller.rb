@@ -1,6 +1,4 @@
 class SectionsController < ApplicationController
-    before_action :authenticate_user!
-    
   before_action :set_section, only: [:show, :edit, :update, :destroy]
 
   # GET /sections
@@ -17,12 +15,10 @@ class SectionsController < ApplicationController
   # GET /sections/new
   def new
     @section = Section.new
-    @students = Student.all
   end
 
   # GET /sections/1/edit
   def edit
-      @students = Student.all
   end
 
   # POST /sections
